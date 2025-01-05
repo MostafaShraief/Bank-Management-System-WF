@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BMD_DLs\clsClientsLoginRegisters_DL.cs" />
+    <Compile Include="BMD_DLs\clsClients_DL.cs" />
+    <Compile Include="BMD_DLs\clsCurrencies_DL.cs" />
+    <Compile Include="BMD_DLs\clsPermissions_DL.cs" />
+    <Compile Include="BMD_DLs\clsPersons_DL.cs" />
+    <Compile Include="clsDLSettings.cs" />
+    <Compile Include="BMD_DLs\clsTransferRegisters_DL.cs" />
+    <Compile Include="BMD_DLs\clsUsersLoginRegisters_DL.cs" />
+    <Compile Include="BMD_DLs\clsUsers_DL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
